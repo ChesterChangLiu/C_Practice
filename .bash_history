@@ -1,39 +1,3 @@
-lab4.sh ~
-lab4.sh ~
-q
-lab4.sh ~
-lab4.sh ~
-gedit lab4.sh &
-q
-lab4.sh
-lab4.sh ~
-q
-lab4.sh ~
-lab4.sh ~
-lab4.sh ~
-lab4.sh ~
-lab4.sh ~
-lab4.sh ~
-ci
-lab4.sh ~
-lab4.sh ~
-gedit lab3.sh &
-qq
-q
-lab4.sh ~
-clear
-submit 2031 lab4 lab4.sh
-sh
-clear
-lab4.sh ~
-lab4.sh ~
-clear
-read name 
-echo $name
-read line < lab4.sh
-echo $line
-cat readfile.sh
-readfile.sh ~/lab4.sh
 clear
 readfile.sh java.rec
 clear
@@ -498,3 +462,39 @@ cat c | wc -l
 man rm
 ls /foo 2> /dev/null 1>&2; echo "$?"
 man kill
+git config --global changliuchangliu@hotmail.com
+git config
+git config global changliuchangliu@hotmail.com
+git config --global changliuchangliu@hotmail.com
+git config --global user.name "chang liu"
+git config --global user.email changliuchangliu@hotmail.com
+echo $?
+pwd
+git init
+ls -la
+lab5
+ls
+cd lab5
+pwd
+ls -la
+git init
+ls -la
+pwd
+cd ..
+git add *
+git status
+git log
+git commit -m "First commit"
+git log
+pwd
+cd lab5
+pwd
+nano test.sh
+ls
+git commit -a -m "Second commit"
+pwd
+cd ..
+pwd
+git commit -a -m "Second commit"
+git log
+ls > ls.txt
