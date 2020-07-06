@@ -1,0 +1,294 @@
+#+1589232588
+man
+#+1589232610
+ls-ls
+#+1589232612
+ls -ls
+#+1589232631
+man ls
+#+1589232769
+cal
+#+1589232775
+cal 1969
+#+1589232780
+cal 2020
+#+1589232797
+passwd
+#+1589232804
+awd
+#+1589232817
+uptime
+#+1589232831
+hostname
+#+1589232909
+q
+#+1589232964
+echo Hello world!
+#+1589233085
+cd
+#+1589233088
+cd w
+#+1589233092
+cd www
+#+1589233098
+ls/..
+#+1589233183
+/root
+#+1589233188
+tree
+#+1589233261
+cd /etc
+#+1589233263
+pw
+#+1589233479
+ls m*
+#+1589233486
+ls w*
+#+1589234515
+echo
+#+1589854931
+cd myfile
+#+1589854951
+mkdir myfile
+#+1589854962
+echo hello world
+#+1589854986
+echo hello world > mkdir myfile
+#+1589855038
+touch myfile
+#+1589855042
+; s
+#+1589855457
+echo "hello world" > myfile
+#+1589855544
+echo 'hello world'
+#+1589855572
+echo 'hello world' > myfile
+#+1589855731
+echo '123' >> myfile
+#+1589855747
+echo '456' >> myfile
+#+1589855766
+echo 'abc' >> myfile
+#+1589855783
+echo 'def' >> myfile
+#+1589855805
+echo 'ghi' >> myfile
+#+1589856109
+who >> myfile
+#+1589856116
+whoami >> myfile
+#+1589856123
+date >> myfile
+#+1590005390
+touch a.txt b.txt
+#+1590005484
+cat > a.txt
+#+1590005555
+cat a
+#+1590005572
+cat a >> a.txt
+#+1590005784
+cat a > a.txt
+#+1590005820
+cat "a" > a.txt
+#+1590005831
+cat a.txt
+#+1590006090
+who
+#+1590006099
+whoami
+#+1590006103
+date
+#+1590006404
+ls *[xX]*.txt
+#+1590006428
+ls *o*.txt
+#+1590006482
+ls *ack*.txt
+#+1590006759
+grep -c "905" phone_book.txt
+#+1590006774
+grep -c 905 phone_book.txt
+#+1590006804
+grep babysitter phone_book.txt
+#+1590006828
+grep -c "friend" phone_book.txt
+#+1590012941
+cat myfile
+#+1590013531
+cat *ing.txt
+#+1590556331
+find.
+#+1590556336
+find .
+#+1590556362
+find www
+#+1590556454
+find a
+#+1590556458
+find w
+#+1590556489
+find . -typr
+#+1590556498
+find -type
+#+1590556508
+find . -type
+#+1590556524
+find . -type d
+#+1590556546
+find . -type f
+#+1590556605
+find ~ -type f -name '*.txt'
+#+1590556623
+cd /
+#+1590556687
+.
+#+1590556688
+..
+#+1590557104
+dir
+#+1590557108
+dir -l
+#+1590557144
+ls ..
+#+1590557154
+ls /
+#+1590557158
+ls ~
+#+1590557233
+history
+#+1590557293
+ls .
+#+1590557477
+find ~ -type f -name '*.txt' | xargs wc -l
+#+1590557559
+cd cliu6
+#+1590557679
+find . -name '*.txt' | wc -l
+#+1590558407
+ls -l/
+#+1590558459
+cd boot
+#+1590558466
+cs /boot
+#+1590558477
+cd /boot
+#+1590558489
+cs ~
+#+1590558497
+ls
+#+1590558512
+ls -l /
+#+1590559446
+id
+#+1590559453
+cs~
+#+1590559456
+cd~
+#+1590559468
+id cliu6
+#+1590561705
+cd ~
+#+1590561707
+pwd
+#+1590561735
+cat phone_book.txt
+#+1590562079
+grep 'alex' phone_book.txt
+#+1590562117
+grep '[aA]lex' phone_book.txt
+#+1590562197
+grep '$2' phone_book.txt
+#+1590562377
+grep '2$' phone_book.txt
+#+1590562533
+grep -v 3 phone_book.txt
+#+1590562854
+cat phone_book.txt | grep -v 3 | grep -o '^[^(]*'
+#+1590563452
+grep -o '\(([0-9]\{3\})\)'
+#+1590563730
+grep -v "3" phone_book.txt | grep -i '^[A-Z]*\ [A-Z]*" -o
+#+1590563751
+grep -v "3" phone_book.txt | grep -i '^[A-Z]*\ [A-Z]*' -o
+#+1590564220
+grep -i [A-Z]
+#+1590564238
+grep -i '[A-Z]
+#+1590564663
+grep '^[(][)]$' phone_book.txt | sort -n
+#+1590564748
+sort -n phone_book.txt
+#+1590564816
+sort -n -0 "^(" phone_book.txt
+#+1590565149
+grep ' [0-9][0-9][0-9][2]' phone_book.txt
+#+1590565175
+grep '[0-9][0-9][0-9][2]' phone_book.txt
+#+1590565305
+grep -v 3 phone_book.txt | grep -o '^[^(]*'
+#+1590565346
+grep -v 3 phone_book.txt | grep -o '^(*'
+#+1590565593
+grep '([0-9][0-9][0-9])' phone_book.txt | sort -n
+#+1590565662
+grep -o '([0-9][0-9][0-9])' | sort -n
+#+1590565744
+grep -i 'alex' phone_book.txt
+#+1590565777
+gerp '[0-9][0-9][0-9][2]' phone_book.txt
+#+1591160805
+cd tm
+#+1591160830
+cd shellex/
+#+1591160834
+cd ShellScriptExamples/
+#+1591160838
+ls -l
+#+1591160842
+welcome
+#+1591160851
+car welcome
+#+1591160855
+cat welcome
+#+1591160858
+pivo
+#+1591160860
+pico
+#+1591183869
+ls -la lab3.sh
+#+1591183877
+claer
+#+1591183885
+lab3.sh
+#+1591183904
+lab3.sh ~
+#+1591184085
+man printf
+#+1591220876
+gedit lab3.sh &
+#+1591825965
+clr
+#+1591825965
+clear
+#+1592354530
+ps -leH
+#+1592354548
+ps -leH | less
+#+1592354605
+ps -a
+#+1592354613
+ps -u
+#+1592354626
+ps -u cliu6
+#+1592354663
+ps --help
+#+1592354678
+'ps --help
+#+1593383725
+ps
+#+1593384373
+exit
+#+1593448639
+sh

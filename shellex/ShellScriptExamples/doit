@@ -1,0 +1,5 @@
+#!/bin/sh
+echo -n "Enter a command: "
+read command
+$command #what is inside this command is a command
+echo "I'm done. Thanks"
