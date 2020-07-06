@@ -1,44 +1,3 @@
-clear
-readfile.sh java.rec
-clear
-cat readfile.sh 
-gedit funcex &
-degit funcex &
-gedit funcex &
-funcex
-cat log1
-cat log2
-clear
-vim funcex
-ps -H
-exit
-q
-quit
-ps
-ps -h
-ps -H
-sh
-top
-clear
-ps -l
-id
-ps -e
-ps -le
-ps -le | grep 21387
-ps -le | grep 30213
-q
-ps -le | grep sshd
-clear
-exit
-env
-set
-env
-home
-HOME
-env home
-env HOME
-env
-env H
 set
 set | gerp home
 set | grep home
@@ -498,3 +457,44 @@ pwd
 git commit -a -m "Second commit"
 git log
 ls > ls.txt
+git diff 7296afa950a2dc2ea7114ef5c36d4ffb5c9b134b 92a052fccf31f7d1d9b0f81386a1c1dea61bec2f
+pico test.sh 
+git diff
+git diff
+git diff -h
+man git diff
+git commit -a -m "Third commit"
+git log
+pico test.sh 
+cat test.sh 
+git check  -- test.sh 
+git checkout -- test.sh 
+cat test.sh 
+ls -la
+ls -la .git
+git remote add origin https://github.com/ChesterChangLiu/EECS2031_lab5.git
+git push -u origin master
+git remote add origin https://github.com/ChesterChangLiu/EECS2031_lab5.git
+git push -u origin master
+git pull origin
+git log
+wget --no-check-certificate  https://www.eecs.yorku.ca/~nsajadi/Teaching/EECS2031/cpart/cexamples.zip
+wget --no-check-certificate  https://www.eecs.yorku.ca/~nsajadi/Teaching/EECS2031/cpart/cexamples.zip
+unzip cexamples.zip
+unzip cexamples.zip
+y
+y
+y
+y
+y
+git commit -a -m "4th commit"
+git push -u origin master
+git push -u origin master
+git remote add origin https://github.com/ChesterChangLiu/EECS2031_lab5.git
+ git push -u origin master
+git commit -a -m "5th commit"
+git diff 
+git diff
+git push -u origin master
+git push -u origin master
+git log
