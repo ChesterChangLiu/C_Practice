@@ -1,2 +1,2 @@
 # C_Practice
-For lecture purpose only
+Lecture practice questions
