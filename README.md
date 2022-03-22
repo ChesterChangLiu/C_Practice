@@ -1,2 +1,2 @@
 # C_Practice
-Lecture practice questions
+Practice questions
